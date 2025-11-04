@@ -68,7 +68,11 @@
 
     /* Advanced Options */
     "skipLibCheck": true /* Skip type checking of declaration files. */,
-    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
+    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
+
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "types": ["react", "react-dom"]
   },
   "include": ["./src"]
 }
